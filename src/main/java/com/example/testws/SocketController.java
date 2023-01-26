@@ -36,6 +36,6 @@ public class SocketController {
     @OnClose
     public void onClose(Session userSession, CloseReason reason) {
         System.out.println("closing websocket");
-        sessions.remove(sessions);
+
     }
 }
