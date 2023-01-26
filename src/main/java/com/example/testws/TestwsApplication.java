@@ -16,7 +16,7 @@ public class TestwsApplication {
 
         MyTimerTask timerTask = new MyTimerTask(socketController);
         Timer t = new Timer();
-        t.scheduleAtFixedRate(timerTask, 0, 10000);
+        t.scheduleAtFixedRate(timerTask, 0, 20000);
     }
 
 }
